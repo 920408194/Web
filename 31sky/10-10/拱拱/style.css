@@ -1,0 +1,236 @@
+/*预设计*/
+
+* {
+    margin: 0 auto;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    min-height: 1080px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/*主要界面*/
+
+header {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 640px;
+    background: url(img/back.png);
+    background-size: cover;
+}
+
+.up {}
+
+.up img {
+    margin: 20px 20px 20px 64px;
+    border-radius: 16px;
+    float: left;
+}
+
+.up p {
+    display: inline-block;
+    line-height: 100px;
+    font-size: 32px;
+    color: #fff;
+    font-family: 'youyuan';
+}
+
+.device {
+    margin-top: 24px;
+    margin-right: 64px;
+    float: right;
+    display: inline-block;
+}
+
+.device li {
+    margin-top: -12px;
+    display: inline-block;
+}
+
+.device li img {
+    margin-left: 16px;
+    margin-right: 16px;
+    display: inline-block;
+    border-radius: 0px;
+}
+
+.device li i {
+    margin-top: 28px;
+    font-size: 16px;
+    display: inline-block;
+    color: #F14E4E;
+}
+
+.android {
+    border-bottom: 2px solid #F14E4E
+}
+
+.left {
+    margin-left: 32px;
+    width: 70%;
+    display: inline-block;
+}
+
+.gg {
+    margin-top: 72px;
+    margin-left: 72px;
+}
+
+.gg p {
+    display: inline-block;
+    color: white;
+    font-family: "yueyuan";
+}
+
+.gg div {
+    margin: 0;
+    width: 56%;
+    color: wheat;
+    border-top: 1px solid #fff;
+    font-size: 32px;
+}
+
+.version {
+    margin-left: 6px;
+    padding: 5px 16px;
+    background: #DD5F76;
+    color: white;
+    border-radius: 8px;
+}
+
+.download {
+    margin-top: 32px;
+    margin-left: 72px;
+}
+
+.download button {
+    height: 108px;
+    width: 256px;
+    background-color: #EC3E61;
+    font-size: 32px;
+    color: white;
+    border: 1px solid #F83058;
+    border-radius: 8px;
+}
+
+.download img {
+    margin-bottom: 18px;
+    height: 108px;
+    width: 108px;
+    vertical-align: middle;
+    margin-left: 16px;
+}
+
+.download p {
+    color: white;
+    margin-top: 16px;
+}
+
+.right {
+    margin-right: 32px;
+    display: inline-block;
+    position: absolute;
+}
+
+
+/*media*/
+
+@media screen and (min-width: 800px) {
+    .media_header {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        display: none;
+    }
+    .media_header {
+        width: 120%;
+        height: 480px;
+        background: url(img/back.png);
+        background-size: cover;
+    }
+    .left2 {
+        margin-left: 108px;
+        margin-right: 64px;
+        display: inline-block;
+    }
+    .left2 p {
+        color: white;
+        font-family: "yueyuan";
+    }
+    .left2 span {
+        display: inline-block;
+    }
+    .right2 {
+        width: 24%;
+        margin-right: 32px;
+        display: inline-block;
+        position: absolute;
+    }
+    .right2 img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .right2 {
+        display: none;
+    }
+    .left2 {
+        margin-left: 64px;
+        display: inline-block;
+    }
+}
+
+
+/*产品特性*/
+
+.ellipse {
+    padding: 0 30px;
+    width: 92%;
+    height: 410px;
+    text-align: center;
+}
+
+.feature {
+    text-align: center;
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+
+.feature img {
+    margin: 20px auto;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+}
+
+.feature p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer {
+    width: 120%;
+    background: #E4E1E1;
+    text-align: center;
+    height: 72px;
+    line-height: 72px;
+    font-size: 12px;
+}

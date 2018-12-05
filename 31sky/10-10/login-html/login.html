@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="robots" content="noindex">
+    <title>login</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+  <script type="text/javascript" src="login.js"></script>
+
+    <div class="loginPageRight">
+      <div class="loginPageRightTitle">请输入您的登录信息</div>
+      <input id="mobile" class="input" type="tel" style="margin: 30px auto;" placeholder="请输入您的手机号" onblur="checkMobile()" />
+      <input id="pwd" class="input" type="passward" style="margin: 30px auto;" placeholder="请输入密码" onblur="checkPwd()" />
+      <div class="forget">
+        <span id="errorMsg" style="color: red;margin-right: 90px;"></span>
+        忘记密码？
+      </div>
+      <button  class="button" style="background: #ff9900;color: #fff" onclick="login()">登录</button>
+      <button class="button" style="border:  1px solid #dfdfdf; background: #fff" onclick="window.location.href='register.html'">注册</button>
+    </div>
+
+  
+  <div class="dialog-bg" /style="display: none;">
+      <div class="dialog">
+        <div class="dialog-header">标题</div>
+        <div class="dialog-content">
+          <p style="margin-top: 30px;">登录成功</p>
+        </div>
+        <div class="dialog-footer">
+          <a href="page.html"><button id="dialog-btn">确认</button></a>
+        </div>
+      </div>
+    </div>
+
+
+  <!-- background pikaqu-->
+    <div id="container" style="margin-top: 256px;">
+      <div id="nose"></div>
+      <div class="eye eye-left"></div>
+      <div class="eye eye-right"></div>
+      <div class="upperLip"></div>
+      <div class="lowerLip-wrapper">
+        <div class="lowerLip"></div>
+      </div>
+      <div class="face face-left"></div>
+      <div class="face face-right"></div>
+
+    </div>
+
+</body>
+</html>

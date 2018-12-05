@@ -1,0 +1,85 @@
+body, ul, li, button, input, { margin:0; padding:0; }
+body, button, input{ font:12px/1.5tahoma, arial; }
+ul, ol { list-style:none; }
+a { text-decoration:none; }
+img { border:0; }
+button, input{ font-size:100%; }
+body{background: #ffe600;}
+.vertical-center{
+	vertical-align: middle;
+	height: 100%;
+	display: inline-block;
+} /*垂直居中*/
+
+.waterfall {
+	column-count: 3; 	/*控制行数*/
+	column-width: 12em;	/*控制图片�*/
+	column-gap: 2em;	/*间隔*/
+	width: 1000px;
+	position: relative;
+	top: 360px;
+	left: 81px;
+	z-index: 10;
+
+}/*瀑布�*/
+.photo{
+	width: 360px;
+}
+.page{
+	background: #ffffe0;
+	position: relative;
+	top: 400px;
+}
+.word{
+	background: #ffffe0;
+	margin: 0 auto;
+	margin-top: 10px;
+	height: 121px;
+	width: 1000px;
+	border-radius: 15px;
+	box-shadow: 0 0 17px rgba(0, 0, 0, 0.17);
+	text-align: center;
+	vertical-align: middle;
+}
+
+/*head*/
+.form-header{
+  background: #aaaaaa;
+  margin-top: 0;
+  list-style: none;
+  height:36px;
+  width: 1150px;
+  margin-right: 16px;
+  vertical-align: middle;
+  box-shadow: 2px 20px 17px rgba(0,0,0,0.17);
+  z-index: 100;
+}
+.form-header .form-item{
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 16px;
+}
+.form-header li:hover{
+	color: #ff9900;
+	box-shadow: 0px 0px 12px rgba(0,0,0,0.17);
+}
+.form-header li a:hover{
+	color: #ff9900;
+}
+
+.name{
+	text-align: center;
+	margin-top: 5px;
+	width: 1200px;
+	background: #ffffe0;
+	margin-right: 15px;
+	z-index: 100;
+	position: relative;
+	bottom: 4px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
